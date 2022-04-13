@@ -1,0 +1,7 @@
+{
+  "name": "jsonplaceholder_fetch_api_example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

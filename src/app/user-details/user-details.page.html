@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" routerLink="" routerDirection="back">Back</ion-button>
+    <ion-title>{{user.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    Name: {{ user.name }}
+  </ion-item>
+  <ion-item>
+    Username: {{ user.username }}
+  </ion-item>
+  <ion-item>
+    Email: {{ user.email }}
+  </ion-item>
+  <ion-item>
+    Address: {{ user.address?.street }} - {{ user.address?.suite }}, {{ user.address?.city }}, {{ user.address?.zipcode }}
+  </ion-item>
+  <ion-item>
+    Phone: {{ user.phone }}
+  </ion-item>
+  <ion-item>
+    Website: {{ user.website }}
+  </ion-item>
+  <ion-item>
+    Company: {{ user.company?.name }} - {{ user.company?.catchPhrase }} ({{ user.company?.bs }})
+  </ion-item>
+</ion-content>

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "jsonplaceholder_fetch_api_example",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
